@@ -1,0 +1,132 @@
+.first {
+    background: #eeeeee;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    opacity: 50%;
+    display: inline-block;
+    margin: 0 1% 5px 4%;
+    position: relative;
+}
+
+.text-1 {
+    opacity: 50%;
+    display: inline-block;
+    margin: 0 0;
+    position: relative;
+    font-size: 18px;
+}
+
+.searchform {
+    box-sizing: border-box;
+
+    width: 350px;
+    height: 30px;
+    margin: 0 150px;
+
+    background: #FFFFFF;
+    border: 1px solid #8F8F8F;
+    border-radius: 100px;
+    position: relative;
+}
+
+.searchform__img {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px;
+}
+
+.searchform__inp {
+    position: absolute;
+    display: inline-block;
+    width: 210px;
+    height: 20px;
+    margin: 5px 10px 5px 40px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #8F8F8F;
+}
+
+
+.searchform__btn {
+    display: inline-block;
+    width: 70px;
+    height: 26px;
+    margin: 1px 0 0 270px;
+    position: absolute;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    outline: none;
+    border-width: 0 0 0 2px;
+    border-color: #8F8F8F;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+}
+
+.media {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.second {
+    background-color: #365DC1;
+    width: 100vw;
+}
+
+.second__btn {
+    background-color: #365DC1;
+}
+
+/*.d7 {background: #7BA7AB;}*/
+/*.d7:after {content:""; clear:both; display:table}*/
+/*.d7 form {*/
+/*    width: auto;*/
+/*    float: right;*/
+/*    margin-right: 30px;*/
+/*}*/
+/*.d7 input {*/
+/*    width: 250px;*/
+/*    height: 42px;*/
+/*    padding-left: 15px;*/
+/*    border-radius: 42px;*/
+/*    border: 2px solid #324b4e;*/
+/*    background: #F9F0DA;*/
+/*    outline: none;*/
+/*    position: relative;*/
+/*    transition: .3s linear;*/
+/*}*/
+/*.d7 input:focus {*/
+/*    width: 300px;*/
+/*}*/
+/*.d7 button {*/
+/*    width: 42px;*/
+/*    height: 42px;*/
+/*    background: none;*/
+/*    border: none;*/
+/*    position: absolute;*/
+/*    top: -2px;*/
+/*    right: 0;*/
+/*    content: url("../../public/asets/menu/search(2 var).png");*/
+/*    color: #324b4e;*/
+/*}*/
